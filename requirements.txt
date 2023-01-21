@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+sqlalchemy
+python-jose          # для авторизации
+passlib[bcrypt]      # для чтение и создание hash паролей
+python-multipart     # потому что используются формы регистрации, авторизации
